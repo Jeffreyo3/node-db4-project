@@ -33,4 +33,4 @@ Recipes (one) <==> Steps (many)
 
 Ingredients (many) <==> Steps (many)
 
-Ingredients (many) <==> Recipes (many)
+Ingredients (many) <==> Recipes (many) needs intermediary table
