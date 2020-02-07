@@ -68,7 +68,7 @@ exports.seed = function (knex) {
         // Chef Salad recipe_id 3
         {
             step_number: 1,
-            instructions: "Wash & place 1 pound of spring mix in a mixing bowl.",
+            instructions: "Wash & place 1 pound (16oz) of spring mix in a mixing bowl.",
             recipe_id: 3
         },
         {
@@ -110,7 +110,7 @@ exports.seed = function (knex) {
         },
         {
             step_number: 2,
-            instructions: "Dice 3oz of cucumber, 3oz of tomato, 2oz of olives, and 2oz of pepperchinis.",
+            instructions: "Dice 3 slices (3oz) of cucumber, 3 slices (3oz) of tomato, 2oz of chopped olives, and 2oz of chopped pepperchinis.",
             recipe_id: 4
         },
         {
