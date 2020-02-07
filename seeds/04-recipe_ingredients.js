@@ -42,10 +42,16 @@ exports.seed = function(knex) {
 
         // Greek Veggie Wrap
             // Hummus OZ
-            // Tortilla
+        { recipe_id: 4, ingredient_id: 15, quantity: 3},
+            // Tortillas (individual)
+        { recipe_id: 4, ingredient_id: 18, quantity: 1},
             // Cucumber Slices
+        { recipe_id: 4, ingredient_id: 17, quantity: 3},
             // Tomato Slices
+        { recipe_id: 4, ingredient_id: 5, quantity: 3},
             // Olive OZ
+        { recipe_id: 4, ingredient_id: 13, quantity: 2},
             // Pepperchini OZ
+        { recipe_id: 4, ingredient_id: 14, quantity: 2},
     ])
 }

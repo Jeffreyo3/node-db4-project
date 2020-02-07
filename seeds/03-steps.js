@@ -105,7 +105,7 @@ exports.seed = function (knex) {
         // Greek veggie wrap recipe_id 4
         {
             step_number: 1,
-            instructions: "Spread 3tbsp hummus onto 1 tortilla.",
+            instructions: "Spread 3oz hummus onto 1 tortilla.",
             recipe_id: 4
         },
         {

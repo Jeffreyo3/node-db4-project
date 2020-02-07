@@ -34,6 +34,8 @@ exports.seeds = function (knex) {
         // spinach 16
         { name: 'Spinach OZ' },
         // cucumber 17
-        { name: 'Cucumber Slices' }
+        { name: 'Cucumber Slices' },
+        // tortilla 18
+        { name: 'Tortillas (individual)'}
     ])
 }
