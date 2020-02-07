@@ -8,24 +8,24 @@ Quantity of ingredients in a recipe
 Steps in a recipe
 
 ### Possible Tables
-recipes\
-    id\
-    recipe_name\
++ recipes
+    - id
+    - recipe_name
 
-ingredients\
-    ingredient_id\
-    ingredient_name\
++ ingredients
+    - ingredient_id
+    - ingredient_name
 
-steps\
-    step_id\
-    instructions\
-    recipe_id\
-    step_number\
++ steps
+    - step_id
+    - instructions
+    - recipe_id
+    - step_number
 
-recipe_ingredients\
-    recipe_id\
-    ingredient_id\
-    ingredient_quantity\
++ recipe_ingredients
+    - recipe_id
+    - ingredient_id
+    - ingredient_quantity
 
 ### Table Relationships
 
