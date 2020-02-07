@@ -1,6 +1,6 @@
 # Notes
 
-## Needed Data
+### Needed Data
 Recipes
 Ingredients
 Ingredients in a recipe
