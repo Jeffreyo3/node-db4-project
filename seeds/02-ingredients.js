@@ -1,41 +1,41 @@
-exports.seeds = function (knex) {
+exports.seed = function (knex) {
     return knex('ingredients').insert([
 
         // bacon 1
-        { name: 'Bacon Slices' },
+        { ingredient_name: 'Bacon Slices' },
         // mayo 2
-        { name: 'Mayonnaise OZ' },
+        { ingredient_name: 'Mayonnaise OZ' },
         // sourdough 3
-        { name: 'Sourdough Slices' },
+        { ingredient_name: 'Sourdough Slices' },
         // hamburger bun 4
-        { name: 'Hamburger Buns' },
+        { ingredient_name: 'Hamburger Buns' },
         // tomato 5
-        { name: 'Tomato Slices' },
+        { ingredient_name: 'Tomato Slices' },
         // lettuce 6
-        { name: 'Lettuce Leaves' },
+        { ingredient_name: 'Lettuce Leaves' },
         // beef 7
-        { name: 'Beef OZ' },
+        { ingredient_name: 'Beef OZ' },
         // swiss cheese 8
-        { name: 'Swiss Cheese Slices' },
+        { ingredient_name: 'Swiss Cheese Slices' },
         // spring mix 9
-        { name: 'Spring Mix OZ' },
+        { ingredient_name: 'Spring Mix OZ' },
         // ham 10
-        { name: 'Ham OZ' },
+        { ingredient_name: 'Ham OZ' },
         // turkey 11
-        { name: 'Turkey OZ' },
+        { ingredient_name: 'Turkey OZ' },
         // ranch 12
-        { name: 'Ranch OZ' },
+        { ingredient_name: 'Ranch OZ' },
         // olives 13
-        { name: 'Olive OZ' },
+        { ingredient_name: 'Olive OZ' },
         // pepperchinis 14
-        { name: 'Pepperchini OZ' },
+        { ingredient_name: 'Pepperchini OZ' },
         // hummus 15
-        { name: 'Hummus OZ' },
+        { ingredient_name: 'Hummus OZ' },
         // spinach 16
-        { name: 'Spinach OZ' },
+        { ingredient_name: 'Spinach OZ' },
         // cucumber 17
-        { name: 'Cucumber Slices' },
+        { ingredient_name: 'Cucumber Slices' },
         // tortilla 18
-        { name: 'Tortillas (individual)'}
+        { ingredient_name: 'Tortillas (individual)'}
     ])
 }

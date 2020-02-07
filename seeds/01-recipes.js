@@ -1,8 +1,8 @@
 exports.seed = function (knex) {
     return knex('recipes').insert([
-        { name: 'BLT' },
-        { name: 'Cheeseburger' },
-        { name: 'Chef Salad' },
-        { name: 'Greek Veggie Wrap' }
+        { recipe_name: 'BLT' },
+        { recipe_name: 'Cheeseburger' },
+        { recipe_name: 'Chef Salad' },
+        { recipe_name: 'Greek Veggie Wrap' }
     ])
 }
