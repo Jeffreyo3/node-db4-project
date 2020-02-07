@@ -33,7 +33,4 @@ Recipes (one) <==> Steps (many)
 
 Ingredients (many) <==> Steps (many)
 
-Ingredients (many) <==> Recipes
-
-
-
+Ingredients (many) <==> Recipes (many)
